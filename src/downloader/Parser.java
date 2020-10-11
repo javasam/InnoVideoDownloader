@@ -25,9 +25,9 @@ public class Parser {
      * downloader формирует ссылки и качает в папку сегменты
      *
      * @param generalList принимает коллекцию ссылок вида:
-     *                    https://video.university.innopolis.ru/vod/2018/STC12/01_17.08.2018.mp4
-     *                    и дополняет до полной:
-     *                    https://video.university.innopolis.ru/vod/2018/STC12/01_17.08.2018.mp4/tracks-v1a1/segment1.ts
+     * https://video.university.innopolis.ru/vod/2018/STC12/01_17.08.2018.mp4
+     * и дополняет до полной:
+     * https://video.university.innopolis.ru/vod/2018/STC12/01_17.08.2018.mp4/tracks-v1a1/segment1.ts
      */
     public void downloader(List<String> generalList, String pathToDownloadDir) throws IOException {
         Downloader downloader = new Downloader();
