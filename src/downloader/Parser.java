@@ -8,8 +8,7 @@ import java.util.List;
 public class Parser {
 
     /**
-     * Замена методу parseFromList(List<String> generalList)
-     * принимает строку вида:
+     * Метод cutTheString принимает строку вида:
      * https://video.innopolis.university/vod/STC/STC27/STC27_vebinar_23_07.10.2020.mp4/embed.html
      * на выходе получаем:
      * https://video.innopolis.university/vod/STC/STC27/STC27_vebinar_23_07.10.2020.mp4

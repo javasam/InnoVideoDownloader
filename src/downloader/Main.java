@@ -10,7 +10,7 @@ public class Main {
         Reader reader = new Reader();
         Parser parser = new Parser();
         parser.downloader(
-                reader.readerFromFile("C:/Users/alexabob/Downloads/Video/stc27.txt"),
-                "C:/Users/alexabob/Downloads/Video/");
+                reader.readerFromFile("C:/Downloads/Video/stc27.txt"),
+                "C:/Downloads/Video/");
     }
 }
